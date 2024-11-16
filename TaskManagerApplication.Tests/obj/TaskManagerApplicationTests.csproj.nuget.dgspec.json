@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Valhala\\source\\repos\\TaskManagerApplication\\TaskManagerApplication.Tests\\TaskManagerApplicationTests.csproj": {}
+    "C:\\Users\\Valhala\\source\\repos\\TaskManager\\TaskManagerApplication\\TaskManagerApplication.Tests\\TaskManagerApplicationTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Valhala\\source\\repos\\TaskManagerApplication\\TaskManagerApplication.Tests\\TaskManagerApplicationTests.csproj": {
+    "C:\\Users\\Valhala\\source\\repos\\TaskManager\\TaskManagerApplication\\TaskManagerApplication.Tests\\TaskManagerApplicationTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Valhala\\source\\repos\\TaskManagerApplication\\TaskManagerApplication.Tests\\TaskManagerApplicationTests.csproj",
+        "projectUniqueName": "C:\\Users\\Valhala\\source\\repos\\TaskManager\\TaskManagerApplication\\TaskManagerApplication.Tests\\TaskManagerApplicationTests.csproj",
         "projectName": "TaskManagerApplicationTests",
-        "projectPath": "C:\\Users\\Valhala\\source\\repos\\TaskManagerApplication\\TaskManagerApplication.Tests\\TaskManagerApplicationTests.csproj",
+        "projectPath": "C:\\Users\\Valhala\\source\\repos\\TaskManager\\TaskManagerApplication\\TaskManagerApplication.Tests\\TaskManagerApplicationTests.csproj",
         "packagesPath": "C:\\Users\\Valhala\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Valhala\\source\\repos\\TaskManagerApplication\\TaskManagerApplication.Tests\\obj\\",
+        "outputPath": "C:\\Users\\Valhala\\source\\repos\\TaskManager\\TaskManagerApplication\\TaskManagerApplication.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\Users\\Valhala\\source\\repos\\TaskManagerApplication\\TaskManagerApplication\\TaskManagerApplication.csproj": {
-                "projectPath": "C:\\Users\\Valhala\\source\\repos\\TaskManagerApplication\\TaskManagerApplication\\TaskManagerApplication.csproj"
+              "C:\\Users\\Valhala\\source\\repos\\TaskManager\\TaskManagerApplication\\TaskManagerApplication\\TaskManagerApplication.csproj": {
+                "projectPath": "C:\\Users\\Valhala\\source\\repos\\TaskManager\\TaskManagerApplication\\TaskManagerApplication\\TaskManagerApplication.csproj"
               }
             }
           }
@@ -95,14 +95,14 @@
         }
       }
     },
-    "C:\\Users\\Valhala\\source\\repos\\TaskManagerApplication\\TaskManagerApplication\\TaskManagerApplication.csproj": {
+    "C:\\Users\\Valhala\\source\\repos\\TaskManager\\TaskManagerApplication\\TaskManagerApplication\\TaskManagerApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Valhala\\source\\repos\\TaskManagerApplication\\TaskManagerApplication\\TaskManagerApplication.csproj",
+        "projectUniqueName": "C:\\Users\\Valhala\\source\\repos\\TaskManager\\TaskManagerApplication\\TaskManagerApplication\\TaskManagerApplication.csproj",
         "projectName": "TaskManagerApplication",
-        "projectPath": "C:\\Users\\Valhala\\source\\repos\\TaskManagerApplication\\TaskManagerApplication\\TaskManagerApplication.csproj",
+        "projectPath": "C:\\Users\\Valhala\\source\\repos\\TaskManager\\TaskManagerApplication\\TaskManagerApplication\\TaskManagerApplication.csproj",
         "packagesPath": "C:\\Users\\Valhala\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Valhala\\source\\repos\\TaskManagerApplication\\TaskManagerApplication\\obj\\",
+        "outputPath": "C:\\Users\\Valhala\\source\\repos\\TaskManager\\TaskManagerApplication\\TaskManagerApplication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

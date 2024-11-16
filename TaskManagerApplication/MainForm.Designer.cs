@@ -17,8 +17,8 @@
 
         private void InitializeComponent()
         {
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -32,6 +32,8 @@
             DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             addTaskButton = new Guna.UI2.WinForms.Guna2Button();
             dueDatePicker = new Guna.UI2.WinForms.Guna2DateTimePicker();
@@ -43,6 +45,7 @@
             DescriptionColumn = new DataGridViewTextBoxColumn();
             PriorityColumn = new DataGridViewTextBoxColumn();
             DueDateColumn = new DataGridViewTextBoxColumn();
+            deleteTaskButton = new Guna.UI2.WinForms.Guna2Button();
             guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)priorityNumericUpDown).BeginInit();
             ((System.ComponentModel.ISupportInitialize)taskGridView).BeginInit();
@@ -57,10 +60,11 @@
             guna2Panel1.Controls.Add(descriptionTextBox);
             guna2Panel1.Controls.Add(titleTextBox);
             guna2Panel1.Controls.Add(taskGridView);
-            guna2Panel1.CustomizableEdges = customizableEdges11;
+            guna2Panel1.Controls.Add(deleteTaskButton);
+            guna2Panel1.CustomizableEdges = customizableEdges13;
             guna2Panel1.Location = new Point(0, 0);
             guna2Panel1.Name = "guna2Panel1";
-            guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges12;
+            guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges14;
             guna2Panel1.Size = new Size(800, 450);
             guna2Panel1.TabIndex = 0;
             // 
@@ -170,7 +174,7 @@
             taskGridView.Name = "taskGridView";
             taskGridView.ReadOnly = true;
             taskGridView.RowHeadersVisible = false;
-            taskGridView.Size = new Size(750, 350);
+            taskGridView.Size = new Size(750, 322);
             taskGridView.TabIndex = 0;
             taskGridView.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
             taskGridView.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -219,6 +223,19 @@
             DueDateColumn.Name = "DueDateColumn";
             DueDateColumn.ReadOnly = true;
             // 
+            // deleteTaskButton
+            // 
+            deleteTaskButton.CustomizableEdges = customizableEdges11;
+            deleteTaskButton.Font = new Font("Segoe UI", 9F);
+            deleteTaskButton.ForeColor = Color.White;
+            deleteTaskButton.Location = new Point(683, 340);
+            deleteTaskButton.Name = "deleteTaskButton";
+            deleteTaskButton.ShadowDecoration.CustomizableEdges = customizableEdges12;
+            deleteTaskButton.Size = new Size(87, 27);
+            deleteTaskButton.TabIndex = 6;
+            deleteTaskButton.Text = "Delete Task";
+            deleteTaskButton.Click += deleteTaskButton_Click;
+            // 
             // MainForm
             // 
             ClientSize = new Size(800, 450);
@@ -233,7 +250,7 @@
         }
 
         #endregion
-
+        private Guna.UI2.WinForms.Guna2Button deleteTaskButton;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private Guna.UI2.WinForms.Guna2DataGridView taskGridView;
         private Guna.UI2.WinForms.Guna2Button addTaskButton;

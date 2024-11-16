@@ -51,6 +51,25 @@
             dueDatePicker.Value = DateTime.Now.AddDays(1);
         }
 
+        private void deleteTaskButton_Click(object sender, EventArgs e)
+        {
+            if (taskGridView.SelectedRows.Count > 0)
+            {
+                // Παίρνουμε τον τίτλο του επιλεγμένου task
+                string taskTitle = taskGridView.SelectedRows[0].Cells[0].Value.ToString();
+
+                // Διαγραφή του task από το TaskManager
+                taskManager.DeleteTask(taskTitle);
+
+                // Ενημέρωση του DataGridView
+                LoadTasksToDataGridView(taskManager.GetTasks());
+            }
+            else
+            {
+                MessageBox.Show("Please select a task to delete.", "No Selection", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
+
         private void priorityNumericUpDown_ValueChanged(object sender, EventArgs e)
         {
 

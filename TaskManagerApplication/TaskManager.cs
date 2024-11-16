@@ -19,6 +19,16 @@ namespace TaskManagerApplication
             }
         }
 
+        public void DeleteTask(string title)
+        {
+            var taskToRemove = tasks.FirstOrDefault(t => t.Title == title);
+            if (taskToRemove != null)
+            {
+                tasks.Remove(taskToRemove);
+            }
+        }
+
+
         private bool ValidateTask(Task task)
         {
             if (string.IsNullOrWhiteSpace(task.Title))

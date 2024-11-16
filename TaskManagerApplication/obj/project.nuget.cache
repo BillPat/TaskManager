@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OyZG664P47s=",
+  "dgSpecHash": "+SGCqKxzm8g=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Valhala\\source\\repos\\TaskManagerApplication\\TaskManagerApplication\\TaskManagerApplication.csproj",
+  "projectFilePath": "C:\\Users\\Valhala\\source\\repos\\TaskManager\\TaskManagerApplication\\TaskManagerApplication\\TaskManagerApplication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Valhala\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.6\\guna.ui2.winforms.2.0.4.6.nupkg.sha512",
     "C:\\Users\\Valhala\\.nuget\\packages\\microsoft.codecoverage\\17.11.1\\microsoft.codecoverage.17.11.1.nupkg.sha512",
